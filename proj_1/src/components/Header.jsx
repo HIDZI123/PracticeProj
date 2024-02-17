@@ -1,16 +1,17 @@
 /* import React from 'react'*/
+import {Link} from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <main>
+      <nav>
         <h1>MyFarma</h1>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/">Contact</a>
-          <a href="/">Sign-In</a>
+        <main>
+          <Link href="/">Home</Link>
+          <Link href="/">Contact</Link>
+          <Link href="/">Sign-In</Link>
 
-        </nav>
-      </main>
+        </main>
+      </nav>
     </>
   );
 };
