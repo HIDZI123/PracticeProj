@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Sign from "./components/Sign";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import "./styles/header.scss";
 
 const App = () => {
   return (
