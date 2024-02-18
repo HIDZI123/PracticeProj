@@ -1,5 +1,15 @@
 @import "./base.scss";
 
 .div_foot{
-    
+    min-height: 25vh;
+    background-color: #FBF6F1;
+    margin-top: 3rem;
+    >div{
+        display: grid;
+       /*  place-content: center ; */
+       /* place-self: center; */
+        place-items: center;
+        grid-template-columns: 2fr 2fr 2fr;
+
+    }
 }

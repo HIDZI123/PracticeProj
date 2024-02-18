@@ -1,6 +1,7 @@
 /* import React from 'react'*/
 import { BsArrowUpRightSquare } from "react-icons/bs";
 import {Link} from "react-router-dom";
+import "../styles/footer.scss";
 const Footer = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="col_1">
           <h1>MyFarma</h1>
           <div>
-              <p></p>
+              <p>&copy; BitBusters all rights reserved  </p>
           </div>
         </div>
 
