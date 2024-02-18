@@ -5,8 +5,9 @@
   font-family: 'Poppins', sans-serif;
 }
 .main{
-  
-  background-image: url(https://images.unsplash.com/photo-1587990754909-18ae9d92c8e8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 100%;
+width:100%;
+background-color: rgb(4, 0, 0);
 
 }
 .parent{
@@ -23,15 +24,17 @@
 }
 .leftbox{
   margin-left: 4vh;
-  min-height: 100vh;
+  min-height: 70vh;
   width: 25%;
   background-color: antiquewhite;
   border-radius: 20px;
   position: relative;
+  display: grid;
+  padding: 8vh;
 }
 .rightbox{
-  background-image: url(https://images.unsplash.com/photo-1516834493344-d0832e78ce8d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-color: antiquewhite;
+  /*background-image: url(https://images.unsplash.com/photo-1516834493344-d0832e78ce8d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);*/
+  background-color:rgb(255, 255, 255);
   position: relative;
   min-height: 100vh;
   margin-top: 12vh;
@@ -40,5 +43,9 @@
   margin-right: 6vh;
   border-radius: 30px;
   width: 75%;
- 
+  box-shadow:15px 15px 5px rgb(255, 244, 244);
+}
+select{
+  border-radius: 20px;
+  height: 30vh;
 }

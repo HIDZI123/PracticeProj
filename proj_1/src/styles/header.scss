@@ -14,6 +14,7 @@ nav {
 
   > h1 {
     margin: auto;
+    font-weight:bolder;
   }
 
   > main{
@@ -32,14 +33,66 @@ nav {
       }
     }
 
-    > .Box {
+    > .sign {
       border: 1px solid black;
       padding: 20px;
-      border-radius: 5px 20px 20px 5px;
+      border-radius: 5px 20px 5px 20px;
 
       &:hover {
         transform: scale(1.2);
+        background-color: black;
+        color: beige;
       }
     }
+    > .homme{
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+  
+        &:hover {
+          
+          background-color: black;
+          color: beige;
+        }
+      }
+    > .contact{
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+  
+        &:hover {
+          
+          background-color: black;
+          color: beige;
+        }
+      }
+    > .contact{
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+  
+        &:hover {
+          
+          background-color: black;
+          color: beige;
+        }
+      }
+    > .nearest{
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+  
+        &:hover {
+          
+          background-color: black;
+          color: beige;
+        }
+      }
+    > .guidlines{
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+  
+        &:hover {
+          
+          background-color: black;
+          color: beige;
+        }
+      }
   }
 }
