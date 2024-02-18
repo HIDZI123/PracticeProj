@@ -1,0 +1,74 @@
+@import "./base.scss";
+
+.nav_2 {
+  width: 80%;
+  min-height: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBF6F1;
+ 
+
+  > main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10rem;
+    width: 100%;
+
+    > div {
+      width: 30%;
+      display: flex;
+      justify-content: flex-start;
+      column-gap: 3rem;
+      align-items: center;
+
+      > button {
+        border-radius: 50%;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: bisque;
+        }
+      }
+
+      > input {
+        width: 100%;
+        font-size: larger;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    > form {
+      > select {
+        font-size: 1.2rem;
+        font-family: $text2;
+        color: #8a5a44;
+        font-weight: 400;
+        border: 0.5px solid rgb(238, 238, 238);
+        padding: 1rem;
+        border-radius: 20px;
+
+        > option {
+          border: none;
+          font-size: small;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    > button {
+      cursor: pointer;
+      border-radius: 50%;
+    }
+  }
+}
