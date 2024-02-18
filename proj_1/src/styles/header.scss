@@ -24,9 +24,11 @@
       text-decoration: none;
 
       &:active,
-      &:hover,
       &:visited {
         color: black;
+      }
+      &:hover{
+        border-bottom: 1px solid rgb(61, 60, 60);
       }
     }
 
