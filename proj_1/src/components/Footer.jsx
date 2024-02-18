@@ -16,9 +16,11 @@ const Footer = () => {
 
         <div className="col_2">
             <h1>Explore</h1>
+            <main>
             <Link to={"/"}>Buy/Sell</Link>
             <Link to={"/contact"}>Contact</Link>
             <Link to={"/contact"}>Guidlines</Link>
+            </main>
         </div>
 
         <div className="col_3">
