@@ -8,11 +8,11 @@
   height: 5rem;
   border-bottom: 1px black solid;
   font-family: $text1;
-  background-color: #f9dcc4;
+  background-color: #D3956C;
 
   > h1 {
     margin: auto;
-    color: #895737;
+    color: white;
   }
 
   > main {
@@ -25,21 +25,21 @@
       margin: 0 2rem;
       font-size: large;
       text-decoration: none;
-      color:#895737;
+      color:white;
 
       &:active,
       &:visited {
         color: black;
       }
       &:hover {
-        border-bottom: 1px solid #c06d07;
-        color: #ba6e11;
+        border-bottom: 1px solid white;
+        color: white;
         
       }
     }
 
     > .Box {
-      border: 1px solid black;
+      border: 1px solid white;
       padding: 15px;
       border-radius: 5px 20px 20px 5px;
 
